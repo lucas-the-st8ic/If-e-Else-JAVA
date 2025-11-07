@@ -13,7 +13,9 @@ public class DoacaoDeSangue {
         System.out.println("Digite o peso do doador: :");
 
         if (idade > idadeMinima && idade < idadeMaxima && peso > pesoMinimo) {
-            
+            System.out.println("Doador compatível com os requisitos.");
+        } else if (idade < idadeMinima && idade > idadeMaxima) {
+
         }
 
     }
